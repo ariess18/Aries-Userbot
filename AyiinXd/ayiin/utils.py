@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="logs. -𝗜𝗫𝗔𝗟𝗟",
+                title="log. -𝗜𝗫𝗔𝗟𝗟",
                 about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
@@ -94,7 +94,7 @@ async def autobot():
     await bot.start()
     await asyncio.sleep(15)
     await bot.send_message(
-        BOTLOG_CHATID, "**currently creating your bot assistant at @botfather**"
+        BOTLOG_CHATID, "**creating your bot assistant at @botfather**"
     )
     LOGS.info("TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT ASSISTANT BOT UNTUK KAMU")
     who = await bot.get_me()
@@ -121,7 +121,7 @@ async def autobot():
     await asyncio.sleep(1)
     isdone = (await bot.get_messages(bf, limit=1))[0].text
     if not isdone.startswith("Good."):
-        await bot.send_message(bf, "My Assistant Bot")
+        await bot.send_message(bf, "My Assistant")
         await asyncio.sleep(1)
         isdone = (await bot.get_messages(bf, limit=1))[0].text
         if not isdone.startswith("Good."):
@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**currently restarting userbot, if there are any problems please contact @jPipis!**",
+                "**restarting userbot, if there are any problems please contact @jPipis!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
