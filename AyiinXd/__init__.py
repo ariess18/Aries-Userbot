@@ -85,7 +85,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -250,17 +250,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/b17248930f58bbdaf2e23.jpg")
+              or "https://telegra.ph/iXall-Userbot-04-02")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/c1dc716f2e0b059efb39d.jpg")
+              or "https://telegra.ph/iXall-Userbot-04-02")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/c1dc716f2e0b059efb39d.jpg")
+             or "https://telegra.ph/iXall-Userbot-04-02")
 
 DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
@@ -300,7 +300,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -317,7 +317,7 @@ gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -461,8 +461,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/b17248930f58bbdaf2e23.jpg",
-                    "https://telegra.ph/file/c1dc716f2e0b059efb39d.jpg",
+                    "https://telegra.ph/iXall-Userbot-04-02",
+                    "https://telegra.ph/iXall-Userbot-04-02",
                 ]
         )
         cmd = CMD_HANDLER
