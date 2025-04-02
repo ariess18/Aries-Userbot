@@ -188,7 +188,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ixally/Kazu-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/xallmean/Kazu-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -250,17 +250,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/iXall-Userbot-04-02")
+              or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/iXall-Userbot-04-02")
+              or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/iXall-Userbot-04-02")
+             or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
 
 DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
@@ -461,8 +461,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/iXall-Userbot-04-02",
-                    "https://telegra.ph/iXall-Userbot-04-02",
+                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
+                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
                 ]
         )
         cmd = CMD_HANDLER
