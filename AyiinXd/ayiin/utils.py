@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/ae760dc6fe4f28ae7041a-0d1b686f604a10e6a1.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -102,7 +102,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"ixall{(str(who.id))[5:]}bot"
+        username = f"xall{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/b17248930f58bbdaf2e23.jpg", 
-              "https://telegra.ph/file/c1dc716f2e0b059efb39d.jpg"
+              "https://telegra.ph/file/0c0959b924f39e105d3b1-96101a1c6f73720e82.jpg", 
+              "https://telegra.ph/file/0c0959b924f39e105d3b1-96101a1c6f73720e82.jpg"
           ]
     )
     await bot.send_message(bf, username)
