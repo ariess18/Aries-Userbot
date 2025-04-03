@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="log. -𝗜𝗫𝗔𝗟𝗟",
+                title="logs. -𝗜𝗫𝗔𝗟𝗟",
                 about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/0c0959b924f39e105d3b1-96101a1c6f73720e82.jpg", 
-              "https://telegra.ph/file/0c0959b924f39e105d3b1-96101a1c6f73720e82.jpg"
+              "https://telegra.ph/file/f7f750e5df2a260f4ccd5-a2e8fe170481301cd4.jpg", 
+              "https://telegra.ph/file/f7f750e5df2a260f4ccd5-a2e8fe170481301cd4.jpg"
           ]
     )
     await bot.send_message(bf, username)
