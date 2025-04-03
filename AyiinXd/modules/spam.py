@@ -313,7 +313,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}picspam` <jumlah spam> <link image/gif>\
         \n  »  **Kegunaan : **Spam Foto Seolah-olah spam teks tidak cukup !!\
         \n\n  »  **Perintah :** `{cmd}delayspam` | `{cmd}dspam` <jeda> <jumlah bbc> <text/list>\
-        \n  »  **Kegunaan : **Spam surat teks dengan huruf.
+        \n  »  **Kegunaan : **Spam dengan menggunakan jeda dan jumlah bbc tertentu\
         \n\n  »  Perintah : {cmd}dspamfw <jeda> <jumlah bbc> <link yang ingin di forward>\
         \n  »  Kegunaan : spam forward dari channel.\
         \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**"
