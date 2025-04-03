@@ -305,7 +305,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}spam` <jumlah spam/bbc> <text/list>\
         \n  »  **Kegunaan : **Membanjiri teks dalam obrolan!!\
         \n\n  »  **Perintah :** `{cmd}cspam` <text/list>\
-        \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
+        \n  »  **Kegunaan : **Spam surat teks dengan huruf\
         \n\n  »  **Perintah :** `{cmd}sspam` <reply sticker>\
         \n  »  **Kegunaan : **Spam sticker dari Seluruh isi Sticker Pack.\
         \n\n  »  **Perintah :** `{cmd}wspam` <text/list>\
@@ -316,7 +316,6 @@ CMD_HELP.update(
         \n  »  **Kegunaan : **Spam surat teks dengan huruf.
         \n\n  »  Perintah : {cmd}dspamfw <jeda> <jumlah bbc> <link yang ingin di forward>\
         \n  »  Kegunaan : spam forward dari channel.\
-        \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
-    "
+        \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**"
     }
 )
