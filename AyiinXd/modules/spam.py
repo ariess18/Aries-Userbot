@@ -302,21 +302,21 @@ async def dlyspamfw(event):
 CMD_HELP.update(
     {
         "spam": f"**Plugin : **`spam`\
-        \n\n  »  **Perintah :** `{cmd}spam` <jumlah spam> <text>\
+        \n\n  »  **Perintah :** `{cmd}spam` <jumlah spam/bbc> <text/list>\
         \n  »  **Kegunaan : **Membanjiri teks dalam obrolan!!\
-        \n\n  »  **Perintah :** `{cmd}cspam` <text>\
+        \n\n  »  **Perintah :** `{cmd}cspam` <text/list>\
         \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
         \n\n  »  **Perintah :** `{cmd}sspam` <reply sticker>\
         \n  »  **Kegunaan : **Spam sticker dari Seluruh isi Sticker Pack.\
-        \n\n  »  **Perintah :** `{cmd}wspam` <text>\
+        \n\n  »  **Perintah :** `{cmd}wspam` <text/list>\
         \n  »  **Kegunaan : **Spam kata teks demi kata.\
         \n\n  »  **Perintah :** `{cmd}picspam` <jumlah spam> <link image/gif>\
         \n  »  **Kegunaan : **Spam Foto Seolah-olah spam teks tidak cukup !!\
-        \n\n  »  **Perintah :** `{cmd}delayspam` <detik> <jumlah spam> <text>\
-        \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
-        \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
-        \n\n  »  Perintah : {cmd}dspamfw <detik> <jumlah spam> <link yang ingin di forward>\
+        \n\n  »  **Perintah :** `{cmd}delayspam` | `{cmd}dspam` <jeda> <jumlah bbc> <text/list>\
+        \n  »  **Kegunaan : **Spam surat teks dengan huruf.
+        \n\n  »  Perintah : {cmd}dspamfw <jeda> <jumlah bbc> <link yang ingin di forward>\
         \n  »  Kegunaan : spam forward dari channel.\
+        \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
     "
     }
 )
