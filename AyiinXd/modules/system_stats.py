@@ -105,8 +105,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-ʙʟᴜᴇ :** `{py_ver}`\n"
-    help_string += f"**ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-ɪxᴀʟʟ :** `{py_ver}`\n"
+    help_string += f"**ɪxᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -180,10 +180,10 @@ async def amireallyalive(alive):
     adB = AyiinDB()
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
-    await alive.edit("👨‍❤️‍👨")
+    await alive.edit("⚡️")
     await asyncio.sleep(3)
     output = (
-        f"**here is [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/jasebixall)**\n\n"
+        f"**here is [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/jasebxall)**\n\n"
         f"**{alive_text}**\n\n"
         f"━━━━━━━━━━━━━━\n"
         f"** - Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -194,7 +194,7 @@ async def amireallyalive(alive):
         f"** - PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"** - Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
         f"** - Pʏ-ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"** - Ixall ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"** - ɪxᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"** - Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "━━━━━━━━━━━━━━━\n\n"
     )
@@ -235,7 +235,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "alive": f"**Plugin : **`alive`\
-        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}kazu`\
+        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}xall`\
         \n  »  **Kegunaan : **Untuk melihat apakah bot Anda berfungsi atau tidak.\
     "
     }
