@@ -72,7 +72,8 @@ def monospace(text):
         'W': '𝚆',
         'X': '𝚇',
         'Y': '𝚈',
-        'Z': '𝚉'}
+        'Z': '𝚉',
+        '1': '1'}
     for i, j in style.items():
         text = text.replace(i, j)
     return text
@@ -191,7 +192,17 @@ def outline(text):
         'W': '𝕎',
         'X': '𝕏',
         'Y': '𝕐',
-        'Z': 'ℤ'}
+        'Z': 'ℤ',
+        '0': '𝟘',
+        '1': '𝟙',
+'2': '𝟚',
+'3': '𝟛',
+'4': '𝟜',
+'5': '𝟝',
+'6': '𝟞',
+'7': '𝟟',
+'8': '𝟠',
+'9': '𝟡'}
     for i, j in style.items():
         text = text.replace(i, j)
     return text
