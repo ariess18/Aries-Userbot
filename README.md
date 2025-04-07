@@ -1,18 +1,18 @@
-<h1 align="center"> ⚡ 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃</h1>
+<h1 align="center"> ⚡ 𝗶𝗫𝗮𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
 
-<a href="https://github.com/ionmusic/Kazu-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ionmusic/Kazu-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/ionmusic/Kazu-Userbot/graphs/commit-activity)
+<a href="https://github.com/xallmean/iXall-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/xallmean/iXall-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/xallmean/iXall-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/ionmusic/Kazu-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/ionmusic/Kazu-Userbot?&logo=github)](https://github.com/ionmusic/Kazu-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/ionmusic/Kazu-Userbot?&logo=github)](https://github.com/ionmusic/Kazu-Userbot/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/xallmean/iXall-Userbot?&logo=github)](https://github.com/xallmean/iXall-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/xallmeam/iXall-Userbot?&logo=github)](https://github.com/ionmusic/Kazu-Userbot/stargazers)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/a38745137e65f2d74de06.jpg">
+  <img src="https://telegra.ph/file/6c7d8bf6fb5b3b2a3b128-6d1e9e9cab63a6924a.jpg">
 </p>
 
-👩‍💻 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+🔥 𝗶𝗫𝗮𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -48,9 +48,9 @@ Selamat bersenang-senang.
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/ionmusic/Kazu-Userbot`
+ • `git clone https://github.com/xallmean/iXall-Userbot`
 
- • `cd Kazu-Userbot`
+ • `cd iXall-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -62,7 +62,7 @@ Selamat bersenang-senang.
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Kazu-Userbot`
+ • `screen -S iXall-Userbot`
 
  • `bash start`
 
@@ -72,7 +72,7 @@ Selamat bersenang-senang.
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/ionmusic/Kazu-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/xallmean/iXall-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -87,7 +87,7 @@ Selamat bersenang-senang.
 
 ## Updates & Support
 
-Follow Channel [Kazu Session](https://t.me/Html12text) untuk info Update bot dan Gabung Group [Kazu Support](https://t.me/kazusupportgrp) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Kazu-Userbot.
+Follow Channel [Jaseb iXall](https://t.me/Jasebxall) untuk info Update bot dan Gabung Group [ixall Support](https://t.me/ixallsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang iXall-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
