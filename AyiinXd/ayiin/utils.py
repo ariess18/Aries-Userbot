@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by xall #
 
 import asyncio
 import importlib
@@ -55,7 +55,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
+                about="...𖨁 Please don't leave this group, and never delete the bots in this group\nふ. Group manage by :f"{who.first_name}.",
                 megagroup=True,
             ),
         )
@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/ae760dc6fe4f28ae7041a-0d1b686f604a10e6a1.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/1848b58bfda92cf34448a.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -94,11 +94,11 @@ async def autobot():
     await bot.start()
     await asyncio.sleep(15)
     await bot.send_message(
-        BOTLOG_CHATID, "**creating your bot assistant at @botfather**"
+        BOTLOG_CHATID, "**..ふ Your bot assistant is being created at @botfather **"
     )
     LOGS.info("TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT ASSISTANT BOT UNTUK KAMU")
     who = await bot.get_me()
-    name = f"{who.first_name} Assistant Bot"
+    name = f"{who.first_name} Help Bot"
     if who.username:
         username = f"{who.username}_bot"
     else:
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/f7f750e5df2a260f4ccd5-a2e8fe170481301cd4.jpg", 
-              "https://telegra.ph/file/f7f750e5df2a260f4ccd5-a2e8fe170481301cd4.jpg"
+              "https://telegra.ph/file/c3fe5f881e4f65cd40f13.jpg", 
+              "https://telegra.ph/file/c3fe5f881e4f65cd40f13.jpg"
           ]
     )
     await bot.send_message(bf, username)
@@ -141,7 +141,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"ixall{str(who.id)[6:]}{ran}bot"
+        username = f"xall{str(who.id)[6:]}{ran}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -170,17 +170,17 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"is there anything I can assist you with? Let me know, I’m here to help!"
+                bf, f"what should i do? tell me i will help you!! "
             )
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"**complete creating bot @{username}**",
+                f"**..ふ Successfully created your bot assistant @{username}**",
             )
             LOGS.info(
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**restarting userbot, if there are any problems please contact @jPipis!**",
+                "**..ふ Userbot is being restarted, if there are any problems contact @jPipis!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -214,17 +214,17 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"is there anything I can assist you with? Let me know, I’m here to help!"
+            bf, f"what should i do? tell me i will help you!! "
         )
         await bot.send_message(
             BOTLOG_CHATID,
-            f"**complete creating bot @{username}**",
+            f"**..ふ Your bot assistant is being created at @botfather  @{username}**",
         )
         LOGS.info(
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**currently restarting userbot, if there are any problems please contact @jPipis!**",
+            "**..ふ Userbot is being restarted, if there are any problems contact @jPipis **",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
