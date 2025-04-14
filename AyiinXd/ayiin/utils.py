@@ -55,7 +55,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="...𖨁 Please don't leave this group, and never delete the bots in this group\nふ. Group manage by :f"{who.first_name}.",
+                about="...𖨁 Please don't leave this group, and never delete the bots in this group\nふ. Group manage by : {who.first_name}.",
                 megagroup=True,
             ),
         )
@@ -163,7 +163,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_message(bf, f"awesome bot by {who.first_name}")
+            await bot.send_message(bf, f"created bot by {who.first_name}")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setdescription")
             await asyncio.sleep(1)
