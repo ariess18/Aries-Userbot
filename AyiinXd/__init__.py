@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by xall. #
 """ Userbot initialization. """
 
 import logging
@@ -250,17 +250,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/34508bdd7c882ab9158db-ba6d52c081df185c48.jpg")
+              or "https://telegra.ph/file/443b95dd828e4899954d3.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
+              or "https://telegra.ph/file/52bd44286aa7dc6952a0f.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
+             or "https://telegra.ph/file/52bd44286aa7dc6952a0f.jpg")
 
 DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
@@ -461,8 +461,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
-                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
+                    "https://telegra.ph/file/52bd44286aa7dc6952a0f.jpg",
+                    "https://telegra.ph/file/52bd44286aa7dc6952a0f.jpg",
                 ]
         )
         cmd = CMD_HANDLER
