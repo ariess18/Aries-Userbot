@@ -55,7 +55,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="...𖨁 Please don't leave this group, and never delete the bots in this group\nふ. Group manage by : {who.first_name}.",
+                about="...𖨁 Please don't leave this group, and never delete the bots in this group.",
                 megagroup=True,
             ),
         )
