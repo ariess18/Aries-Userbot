@@ -1,30 +1,20 @@
 from telethon import Button
-from AyiinXd import (
-    DEFAULT,
-    DEVS,
-    LOGS,
-    LOOP,
-    STRING_SESSION,
-    blacklistayiin,
-    bot,
-    tgbot,
-)
+
+from userbot import BOTLOG, BOTLOG_CHATID, LOGS, tgbot
+
 
 async def startupmessage():
     """
     Start up message in telegram logger group
     """
     try:
-        if BOTLOG:  # Pastikan BOTLOG udah didefinisikan sebelumnya
-            await tgbot.send_message(
-                BOTLOG_CHATID,  # Pastikan BOTLOG_CHATID udah didefinisikan sebelumnya
-                "𝗜𝗫𝗔𝗟𝗟-Userbot.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
-                file="https://telegra.ph/file/c3fe5f881e4f65cd40f13.jpg",  # Menggunakan URL gambar
-                buttons=[
-                    [Button.url("Store", "https://t.me/jasebxall")],
-                    [Button.url("Support", "https://t.me/ixallsupport")]
-                ]
+        if BOTLOG:
+            await tgbot.send_file(
+                BOTLOG_CHATID,
+                "https://telegra.ph/file/cbe826936d4de9ec1838a.jpg",
+                caption="✨ **ALBY-Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 9.0@ALBY-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecek Bot**\n➠ **Ketik** `.help` **Untuk Melihat Informasi Module**\n━━━━━━━━━━━\n➠ **Powered By:** @ruangprojects ",
+                buttons=[(Button.url("ɢʀᴏᴜᴘ ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/ruangdiskusikami"),)],
             )
     except Exception as e:
-        LOGS.error(f"Error: {e}")
+        LOGS.error(e)
         return None
