@@ -607,8 +607,8 @@ pdf_3: "**ERROR: @office2pdf_bot tidak merespon, coba lagi nanti**"
 pdf_4: "**Mohon Reply ke teks apa pun**"
 
 # pmpermit tools
-prmt_1: "𝗣𝗲𝘀𝗮𝗻 𝗼𝘁𝗼𝗺𝗮𝘁𝗶𝘀.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nIni adalah pesan otomatis dari 𝗜𝗫𝗔𝗟𝗟-𝗨𝘀𝗲𝗿𝗯𝗼𝘁. Spam 5x di chat ini akan otomatis di block oleh bot sebelum disetujui oleh pemilik."
-prmt_2: "𝗣𝗲𝗿𝗶𝗻𝗴𝗮𝘁𝗮𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nMaaf Anda Diblokir karna melakukan spam."
+prmt_1: "𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰 𝗠𝗲𝘀𝘀𝗮𝗴𝗲!!.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nThis is an automated message from 𝗜𝗫𝗔𝗟𝗟-Userbot, if you spam up to 5x it will be automatically blocked ."
+prmt_2: "𝗪𝗮𝗿𝗻𝗶𝗻𝗴!!.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nSorry you have been blocked for spamming."
 prmt_3: "**Terjadi Error Saat Menghitung Pesan pribadi, Mohon Restart Bot!**"
 prmt_4: "Gagal menghitung PM yang diterima"
 prmt_5: "**[{}](tg://user?id={}) Telah diblokir karna melakukan spam**"
@@ -740,9 +740,9 @@ sostik_1: "**Berikan Link Tiktok Pesan atau Reply Link Tiktok Untuk di Download*
 sostik_2: "`Video Sedang Diproses...`"
 
 # spam tools
-spam_1: "#SPAM\nSpam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah"
-spam_2: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) dengan {} kali dengan pesan di bawah"
-spam_3: "#DELAYSPAM\nDelay spam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah ini dengan penundaan {} detik"
+spam_1: "#SPAM\nSpam Telah selesai diproses di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah"
+spam_2: "#SPAM\nSpam Telah selesai diposes di {}(`{}`) dengan {} kali dengan pesan di bawah"
+spam_3: "#DELAYSPAM\nDelay spam Telah selesai diproses di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah ini dengan penundaan {} detik"
 spam_4: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n     𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n     𝘭𝘱𝘮: {}(`{}`)\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} kali dengan pesan di bawah ini\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} detik"
 spam_5: "#SPAM\nSpam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} pesan dari \n`{}`"
 spam_6: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) mengobrol dengan {} pesan dari \n`{}`"
