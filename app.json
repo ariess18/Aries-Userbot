@@ -1,9 +1,9 @@
 {
-  "name": "𝗜𝗫𝗔𝗟𝗟-Userbot",
-  "description": "-𝗕𝗬 @jPipis on telegram-",
+  "name": "𝗔𝗿𝗶𝗲𝘀'𝗰 𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+  "description": "-𝗕𝗬 @anjingu on telegram-",
   "logo": "https://graph.org/file/2aefa880dac16530b31ca-9d35801d8d0ce8dd56.jpg",
   "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
-  "repository": "https://github.com/xallmean/xall",
+  "repository": "https://github.com/ariess18/Aries-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @strgen_bot",
+      "description": "Dapatkan String Session di @Stringsesi_bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
