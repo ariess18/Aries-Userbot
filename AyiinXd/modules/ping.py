@@ -54,10 +54,10 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     sleep(3)
-    await ping.reply(
-        f"私 **ᴘɪɴɢ :** `%sms`\n"
-        f"さ **ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
-        f"ふ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+    await ping.edit(
+        f"**ᴘɪɴɢ :** `%sms`\n"
+        f"**ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+        f"**ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -109,14 +109,14 @@ async def _(pong):
         f" 𖤐 𝗛𝗔𝗩𝗘 𝗬𝗢𝗨𝗥 𝗣𝗜𝗡𝗚 "
         f"\n ★ 𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 `%sms` \n"
         f"★ 𝗨𝗽𝘁𝗶𝗺𝗲 "
-        f"\n ★ User - 𝗜𝗫𝗔𝗟𝗟『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
+        f"\n ★ User - 𝗔𝗿𝗶𝗲𝘀『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
     )
 
 
 # .keping & kping Coded by Koala
 
 
-@ayiin_cmd(pattern=r"xall$")
+@ayiin_cmd(pattern=r"aries$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -138,14 +138,14 @@ async def _(pong):
     await kping.edit("8===🥹D")
     await kping.edit("8===😬D🔥")
     await kping.edit("8====D🔥🔥")
-    await kping.edit("**IXALLL**")
-    await kping.edit("**DISINI IXALL GANTENG KECE BADAI SLEBEW .....**")
+    await kping.edit("**Aries**")
+    await kping.edit("**DISINI 𝗔𝗿𝗶𝗲𝘀'𝗰 GANTENG KECE BADAI SLEBEW .....**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit("☠️")
     sleep(3)
     await kping.edit(
-        f"**IXALL TAMVAN!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
+        f"**ARIES TAMVAN!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
     )
 
 
