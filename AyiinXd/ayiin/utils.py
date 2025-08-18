@@ -54,8 +54,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="...𖨁 Please don't leave this group, and never delete the bots in this group.",
+                title="𝗔𝗿𝗶𝗲𝘀'𝗰 logs.",
+                about="Please don't leave this group, and never delete the bots in this group.",
                 megagroup=True,
             ),
         )
@@ -94,7 +94,7 @@ async def autobot():
     await bot.start()
     await asyncio.sleep(15)
     await bot.send_message(
-        BOTLOG_CHATID, "**..ふ Your bot assistant is being created at @botfather **"
+        BOTLOG_CHATID, "**Your bot assistant is being created at @botfather **"
     )
     LOGS.info("TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT ASSISTANT BOT UNTUK KAMU")
     who = await bot.get_me()
@@ -102,7 +102,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"xall{(str(who.id))[5:]}bot"
+        username = f"ARIESc{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -141,7 +141,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"xall{str(who.id)[6:]}{ran}bot"
+        username = f"ARIESc{str(who.id)[6:]}{ran}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -174,13 +174,13 @@ async def autobot():
             )
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"**..ふ Successfully created your bot assistant @{username}**",
+                f"**Successfully created your bot assistant @{username}**",
             )
             LOGS.info(
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**..ふ Userbot is being restarted, if there are any problems contact @jPipis!**",
+                "**Userbot is being restarted, if there are any problems contact @jPipis!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -218,13 +218,13 @@ async def autobot():
         )
         await bot.send_message(
             BOTLOG_CHATID,
-            f"**..ふ Your bot assistant is being created at @botfather  @{username}**",
+            f"**Your bot assistant is being created at @botfather  @{username}**",
         )
         LOGS.info(
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**..ふ Userbot is being restarted, if there are any problems contact @jPipis **",
+            "**Userbot is being restarted, if there are any problems contact @jPipis **",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
