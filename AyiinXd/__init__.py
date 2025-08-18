@@ -85,7 +85,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/Ariess18/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/ariess18/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -313,8 +313,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGphc2VieGFsbA=="))[2:15]
-gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
+ch = str(b64decode("QEFSSUVTYw=="))[2:15]
+gc = str(b64decode("QHB3cm9vZg=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
