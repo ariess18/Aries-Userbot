@@ -1,6 +1,6 @@
-<h1 align="center"> ⚡ 𝗶𝗫𝗮𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
+<h1 align="center"> ⚡ 𝗔𝗿𝗶𝗲𝘀'𝗰 -𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
 
-<a href="https://github.com/xallmean/iXall-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com//Aries-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/xallmean/iXall-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/xallmean/iXall-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/ionmusic/Kazu-Userbot/dashboard)
