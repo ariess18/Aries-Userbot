@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/1848b58bfda92cf34448a.jpg", "photoyins.jpg"
+            "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/c3fe5f881e4f65cd40f13.jpg", 
-              "https://telegra.ph/file/c3fe5f881e4f65cd40f13.jpg"
+              "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg", 
+              "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg"
           ]
     )
     await bot.send_message(bf, username)
@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**Userbot is being restarted, if there are any problems contact @jPipis!**",
+                "**Userbot is being restarted, if there are any problems contact @anjingu!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**Userbot is being restarted, if there are any problems contact @jPipis **",
+            "**Userbot is being restarted, if there are any problems contact @anjingu**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
