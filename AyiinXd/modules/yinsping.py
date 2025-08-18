@@ -29,7 +29,7 @@ absen = [
 ]
 
 kazucakep = [
-    "**cakep**,
+    "**cakep**",
 ]
 
 
