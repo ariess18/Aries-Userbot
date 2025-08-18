@@ -85,12 +85,13 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/Ariess18/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
+            7851018007,
             2014998038,
             1331659203,
             1700405732,
@@ -188,7 +189,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/xallmean/xall.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ariess18/Aries-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -221,7 +222,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗜𝗫𝗔𝗟𝗟-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
@@ -300,7 +301,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/ariess18/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -317,7 +318,7 @@ gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/ariess18/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -333,7 +334,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Ixall-Userbot"
+    session = "Aries-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -364,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗜𝗫𝗔𝗟𝗟-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -573,7 +574,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n"
+                    f"**𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -606,7 +607,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗜𝗫𝗔𝗟𝗟-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -720,22 +721,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗜𝗫𝗔𝗟𝗟-Userbot",
-                    url="https://t.me/jPipis",
+                    description="𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot",
+                    url="https://t.me/anjingu",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗜𝗫𝗔𝗟𝗟-Userbot",
+                    text=f"𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/ixallsupport"),
+                                "https://t.me/ARIESc"),
                             custom.Button.url(
-                                "Channel",
-                                "https://t.me/jasebxall"),
+                                "Proof",
+                                "https://t.me/pwroof"),
                         ],
                     ],
                     link_preview=False,
@@ -1094,4 +1095,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @jPipis atau ke @ixallsupport. 𝗜𝗫𝗔𝗟𝗟-Userbot {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @jPipis atau ke @ixallsupport. 𝗔𝗿𝗶𝗲𝘀'𝗰-Userbot {BOT_VER}")
