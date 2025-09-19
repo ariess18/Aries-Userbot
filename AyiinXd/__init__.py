@@ -251,17 +251,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg")
+              or "https://graph.org/file/95b0bcb4cca9de7ab53a4-d64145d0e7351d54e2.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg")
+              or "https://graph.org/file/95b0bcb4cca9de7ab53a4-d64145d0e7351d54e2.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg")
+             or "https://graph.org/file/95b0bcb4cca9de7ab53a4-d64145d0e7351d54e2.jpg")
 
 DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
@@ -462,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg",
-                    "https://graph.org/file/5ab8200089e4d3b9f1039-68ca3fb1e505a60fbd.jpg",
+                    "https://graph.org/file/95b0bcb4cca9de7ab53a4-d64145d0e7351d54e2.jpg",
+                    "https://graph.org/file/95b0bcb4cca9de7ab53a4-d64145d0e7351d54e2.jpg",
                 ]
         )
         cmd = CMD_HANDLER
